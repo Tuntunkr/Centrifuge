@@ -1,0 +1,64 @@
+
+.Hero_heroContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 818px;
+    width: 100%;
+    background-image: url(./large-4e61b5bc77aed5be50fd60a666b88a94\ \(1\).svg);   
+    background-position: 100%;
+    background-size:cover ;
+}
+
+.Hero_heroContent h1{
+    font-family: "Montserrat";
+    font-size: 34px;
+    line-height: 40px;
+    font-weight: 500;
+    text-align: justify;
+    margin: 30px;
+   
+}
+
+
+.Hero_heroContent p{
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+   
+}
+
+
+.Hero_heroContent div a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top:520px;
+    color: #fff;
+    width: 215px;
+    height: 56px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 9%);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Hero_heroContent>div>a:first-of-type {
+    background: #fff;
+    border-radius: 6px;
+    color: #645aff;
+}
